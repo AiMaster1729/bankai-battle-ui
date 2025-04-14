@@ -57,7 +57,7 @@ export const bankais: BankaiType[] = [
     description: "Hitsugaya's Daiguren Hyorinmaru summons a massive ice dragon, freezing everything in its path and controlling the weather.",
     shikai: "Hyorinmaru",
     bankai: "Daiguren Hyorinmaru",
-    imageSrc: "https://example.com/hyorinmaru.jpg",
+    imageSrc: "https://nerz.jp/wp-content/uploads/2022/10/07261d33a2ce8454471b1b361808fb72.jpg",
     reiatsuColor: "reiatsu-blue",
   },
   {

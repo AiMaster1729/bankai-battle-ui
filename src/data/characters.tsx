@@ -40,7 +40,7 @@ export const characters: CharacterType[] = [
     zanpakuto: "The Almighty",
     quote: "I can see everything. Every future.",
     icon: Crown,
-    imageSrc: "https://wallpapercave.com/wp/wp4563299.png",
+    imageSrc: "https://images.unsplash.com/photo-1523712999610-f77fbcfc3843?auto=format&fit=crop&w=600&q=80",
     reiatsuColor: "reiatsu-gold",
   },
   {

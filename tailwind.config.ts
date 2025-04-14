@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,22 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Bleach theme colors
+				bleach: {
+					black: '#1A1A1A',
+					red: '#8B0000',
+					blue: '#00B7EB',
+					white: '#F5F5F5',
+					gold: '#FFD700',
+					purple: '#800080',
+					gray: '#4B4B4B',
 				}
+			},
+			fontFamily: {
+				shojumaru: ['Shojumaru', 'cursive'],
+				noto: ['Noto Sans JP', 'sans-serif'],
+				bebas: ['Bebas Neue', 'sans-serif'],
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -84,12 +100,38 @@ export default {
 					to: {
 						height: '0'
 					}
-				}
+				},
+				'pulse-reiatsu': {
+					'0%, 100%': { 
+						transform: 'scale(1)',
+						boxShadow: '0 0 0 rgba(139, 0, 0, 0.7)',
+					},
+					'50%': { 
+						transform: 'scale(1.05)',
+						boxShadow: '0 0 20px rgba(139, 0, 0, 0.7)',
+					},
+				},
+				'fade-in': {
+					'0%': { opacity: '0', transform: 'translateY(10px)' },
+					'100%': { opacity: '1', transform: 'translateY(0)' },
+				},
+				'slash': {
+					'0%': { transform: 'translateX(-10px)', opacity: '0' },
+					'50%': { opacity: '1' },
+					'100%': { transform: 'translateX(10px)', opacity: '0' },
+				},
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
-			}
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'pulse-reiatsu': 'pulse-reiatsu 2s infinite',
+				'fade-in': 'fade-in 0.5s ease-out',
+				'slash': 'slash 0.3s ease-out',
+			},
+			backgroundImage: {
+				'hero-pattern': "linear-gradient(to bottom, rgba(26, 26, 26, 0.8), rgba(139, 0, 0, 0.6))",
+				'card-gradient': "linear-gradient(135deg, rgba(26, 26, 26, 0.9), rgba(139, 0, 0, 0.7))",
+			},
 		}
 	},
 	plugins: [require("tailwindcss-animate")],

@@ -47,7 +47,7 @@ export const bankais: BankaiType[] = [
     description: "Kenpachi's Bankai transforms him into a demonic figure with immense destructive power, able to cut through anything with wild, uncontrollable force.",
     shikai: "Nozarashi",
     bankai: "Unnamed",
-    imageSrc: "https://example.com/nozarashi.jpg",
+    imageSrc: "https://c.wallhere.com/photos/19/0c/anime_Bleach_Zaraki_Kenpachi_bankai_manga-1754419.jpg!d",
     reiatsuColor: "reiatsu-red",
   },
   {

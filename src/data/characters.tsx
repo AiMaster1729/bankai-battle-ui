@@ -60,7 +60,7 @@ export const characters: CharacterType[] = [
     zanpakuto: "Senbonzakura",
     quote: "Scatter, Senbonzakura Kageyoshi.",
     icon: Droplet,
-    imageSrc: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=600&q=80",
+    imageSrc: "https://i.pinimg.com/originals/d7/04/dc/d704dc1c64318d4107c064a200e93c0c.png",
     reiatsuColor: "reiatsu-purple",
   },
   {

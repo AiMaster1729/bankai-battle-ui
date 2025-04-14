@@ -70,7 +70,7 @@ export const characters: CharacterType[] = [
     zanpakuto: "Nozarashi",
     quote: "The only thing I want is to become stronger.",
     icon: Sword,
-    imageSrc: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=600&q=80",
+    imageSrc: "https://cdna.artstation.com/p/assets/images/images/061/729/656/large/little_warri0r-kenpachi-zaraki-bleach.jpg?1681483769",
     reiatsuColor: "reiatsu-red",
   },
   {

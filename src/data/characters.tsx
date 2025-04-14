@@ -30,7 +30,7 @@ export const characters: CharacterType[] = [
     zanpakuto: "Zangetsu",
     quote: "I'll defeat you. I'll defeat you all.",
     icon: User,
-    imageSrc: "https://images.unsplash.com/photo-1470813740244-df37b8c1edcb?auto=format&fit=crop&w=600&q=80",
+    imageSrc: "https://images5.alphacoders.com/851/thumb-1920-851062.png",
     reiatsuColor: "reiatsu-red",
   },
   {

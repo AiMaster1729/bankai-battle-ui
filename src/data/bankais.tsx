@@ -27,7 +27,7 @@ export const bankais: BankaiType[] = [
     description: "Rukia's Hakka no Togame in TYBW freezes everything to absolute zero, turning her body into ice and creating a beautiful realm of absolute stillness.",
     shikai: "Sode no Shirayuki",
     bankai: "Hakka no Togame",
-    imageSrc: "https://example.com/sode_no_shirayuki.jpg",
+    imageSrc: "https://staticg.sportskeeda.com/editor/2022/10/0fa7b-16657221703104-1920.jpg",
     reiatsuColor: "reiatsu-blue",
   },
   {

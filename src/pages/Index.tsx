@@ -1,4 +1,3 @@
-
 import React from "react";
 import { motion } from "framer-motion";
 import NavBar from "../components/NavBar";
@@ -17,7 +16,7 @@ const Index = () => {
       <HeroSection />
       
       {/* Characters Section */}
-      <section id="characters" className="py-20 px-4 relative">
+      <section id="characters" className="py-20 px-4 relative bg-white">
         <div className="absolute inset-0 bg-manga-dots bg-[size:20px_20px] opacity-5 pointer-events-none"></div>
         <div className="container mx-auto">
           <motion.h2 

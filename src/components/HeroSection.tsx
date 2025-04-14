@@ -24,7 +24,7 @@ const HeroSection: React.FC = () => {
           playsInline
           className="absolute w-full h-full object-cover"
         >
-          <source src="https://assets.mixkit.co/videos/preview/mixkit-ink-spreading-through-water-19580-large.mp4" type="video/mp4" />
+          <source src="https://res.cloudinary.com/dshy9mkpj/video/upload/v1744651459/Ichigo_and_Aizen_Vs_Yhwach_Bleach_-_Manga_After_Dark_4k_nlb8z7.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         <div className="absolute inset-0 bg-black bg-opacity-70"></div>

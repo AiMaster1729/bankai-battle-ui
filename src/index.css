@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -13,24 +14,24 @@
     --popover: 0 0% 12%;
     --popover-foreground: 0 0% 95%;
 
-    --primary: 0 72% 27%;
-    --primary-foreground: 0 0% 95%;
+    --primary: 0 0% 0%; /* Black */
+    --primary-foreground: 0 0% 100%; /* White */
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 0 0% 95%; /* Light Gray */
+    --secondary-foreground: 0 0% 5%; /* Near Black */
 
     --muted: 0 0% 20%;
     --muted-foreground: 0 0% 70%;
 
-    --accent: 48 100% 50%;
-    --accent-foreground: 0 0% 10%;
+    --accent: 0 0% 0%; /* Black */
+    --accent-foreground: 0 0% 100%; /* White */
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 0% 0%;
+    --destructive-foreground: 0 0% 100%;
 
     --border: 0 0% 20%;
     --input: 0 0% 20%;
-    --ring: 0 72% 27%;
+    --ring: 0 0% 0%;
 
     --radius: 0.5rem;
   }
@@ -38,46 +39,83 @@
   body {
     @apply bg-bleach-white text-bleach-black font-noto;
     background-color: #FFFFFF;
+    /* Replace gradient with manga texture background */
     background-image: 
-      radial-gradient(circle at 50% 50%, rgba(139, 0, 0, 0.2) 0%, transparent 50%),
-      radial-gradient(circle at 80% 20%, rgba(0, 183, 235, 0.1) 0%, transparent 40%);
+      url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%23000000' fill-opacity='0.05' fill-rule='evenodd'/%3E%3C/svg%3E"),
+      linear-gradient(to right, rgba(0, 0, 0, 0.01) 0px, transparent 1px) 0 0 / 20px 20px,
+      linear-gradient(to bottom, rgba(0, 0, 0, 0.01) 0px, transparent 1px) 0 0 / 20px 20px;
     background-attachment: fixed;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    @apply text-bleach-black;
+    @apply text-bleach-black font-shojumaru;
+    /* Add manga-style text effect */
+    -webkit-text-stroke: 0.5px #000000;
   }
 }
 
 @layer components {
-  .reiatsu-red {
-    box-shadow: 0 0 15px rgba(139, 0, 0, 0.7);
+  /* Replace colored reiatsu with manga-style effects */
+  .reiatsu-effect {
+    position: relative;
+    overflow: hidden;
     transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
   
-  .reiatsu-blue {
-    box-shadow: 0 0 15px rgba(0, 183, 235, 0.7);
-    transition: all 0.3s ease;
+  .reiatsu-effect:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.05) 100%);
+    z-index: 1;
+    transition: opacity 0.3s ease;
   }
   
-  .reiatsu-gold {
-    box-shadow: 0 0 15px rgba(255, 215, 0, 0.7);
-    transition: all 0.3s ease;
+  .reiatsu-effect:hover:before {
+    opacity: 0.8;
   }
   
-  .reiatsu-purple {
-    box-shadow: 0 0 15px rgba(128, 0, 128, 0.7);
-    transition: all 0.3s ease;
+  /* Convert colored reiatsu classes to black and white manga style */
+  .reiatsu-red, .reiatsu-blue, .reiatsu-gold, .reiatsu-purple {
+    @apply reiatsu-effect;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
   }
 
   .bankai-title {
-    @apply font-shojumaru text-xl sm:text-2xl text-bleach-white;
-    text-shadow: 0 0 5px rgba(255, 0, 0, 0.5);
+    @apply font-shojumaru text-xl sm:text-2xl text-bleach-black;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.2);
+    position: relative;
+  }
+  
+  .bankai-title:after {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(to right, #000, transparent);
   }
 
   .hero-text {
-    @apply font-shojumaru text-3xl sm:text-4xl md:text-5xl text-bleach-white;
-    text-shadow: 0 0 10px rgba(139, 0, 0, 0.7);
+    @apply font-shojumaru text-3xl sm:text-4xl md:text-5xl text-bleach-black;
+    text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .hero-text:after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 10%;
+    width: 80%;
+    height: 2px;
+    background: #000;
+    transform: skewX(-20deg);
   }
 
   .zanpakuto-border {
@@ -91,14 +129,14 @@
     left: 0;
     right: 0;
     bottom: 0;
-    border: 2px solid #8B0000;
+    border: 2px solid #000000;
     border-radius: 0.5rem;
     pointer-events: none;
   }
 
   .section-title {
-    @apply font-shojumaru text-2xl sm:text-3xl md:text-4xl text-bleach-white relative inline-block;
-    text-shadow: 0 0 5px rgba(139, 0, 0, 0.5);
+    @apply font-shojumaru text-2xl sm:text-3xl md:text-4xl text-bleach-black relative inline-block;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
   }
   
   .section-title:after {
@@ -108,6 +146,80 @@
     left: 0;
     width: 100%;
     height: 2px;
-    background: linear-gradient(to right, #8B0000, transparent);
+    background: linear-gradient(to right, #000000, transparent);
   }
+  
+  /* New manga-style components */
+  .manga-panel {
+    @apply bg-white border-2 border-black p-4 relative;
+    box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.8);
+  }
+  
+  .speech-bubble {
+    @apply bg-white border-2 border-black p-3 relative;
+    border-radius: 50% 50% 50% 20%;
+  }
+  
+  .speech-bubble:after {
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    left: 20px;
+    width: 15px;
+    height: 15px;
+    background: white;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    transform: rotate(45deg);
+  }
+  
+  .manga-slash {
+    position: relative;
+  }
+  
+  .manga-slash:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, transparent 49.5%, #000 49.5%, #000 50.5%, transparent 50.5%);
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .manga-slash:hover:after {
+    opacity: 0.1;
+  }
+}
+
+/* Add manga-style animation keyframes */
+@keyframes manga-flash {
+  0% { 
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  }
+  5% {
+    clip-path: polygon(10% 0%, 90% 0%, 100% 100%, 0% 100%);
+  }
+  10% {
+    clip-path: polygon(0% 0%, 100% 0%, 90% 100%, 10% 100%);
+  }
+  15% {
+    clip-path: polygon(0% 10%, 100% 0%, 100% 90%, 0% 100%);
+  }
+  20% {
+    clip-path: polygon(0% 0%, 100% 10%, 100% 100%, 0% 90%);
+  }
+  25% {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  }
+  100% { 
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  }
+}
+
+.manga-flash {
+  animation: manga-flash 0.5s ease-out;
 }

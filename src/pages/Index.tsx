@@ -11,13 +11,14 @@ import { bankais } from "../data/bankais";
 
 const Index = () => {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen bg-white">
       <NavBar />
       
       <HeroSection />
       
       {/* Characters Section */}
-      <section id="characters" className="py-20 px-4">
+      <section id="characters" className="py-20 px-4 relative">
+        <div className="absolute inset-0 bg-manga-dots bg-[size:20px_20px] opacity-5 pointer-events-none"></div>
         <div className="container mx-auto">
           <motion.h2 
             className="section-title text-center mb-16"
@@ -40,8 +41,9 @@ const Index = () => {
       {/* Bankais Section */}
       <section 
         id="bankais" 
-        className="py-20 px-4 bg-gradient-to-b from-bleach-black to-bleach-black/80"
+        className="py-20 px-4 bg-gradient-to-b from-white to-gray-100 relative"
       >
+        <div className="absolute inset-0 bg-manga-lines bg-[size:30px_30px] opacity-5 pointer-events-none"></div>
         <div className="container mx-auto">
           <motion.h2 
             className="section-title text-center mb-16"
@@ -61,18 +63,19 @@ const Index = () => {
           
           <div className="mt-16 text-center">
             <motion.p 
-              className="text-lg text-bleach-white/90 font-noto italic mb-8"
+              className="text-lg text-black/90 font-noto italic mb-8 relative inline-block"
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.2 }}
             >
               "Bankai is the ultimate expression of a Shinigami's power, achieved after years of rigorous training and a deep connection with their Zanpakuto."
+              <span className="absolute bottom-0 left-0 right-0 h-[1px] bg-black/20"></span>
             </motion.p>
             
             <motion.a
               href="#home"
-              className="inline-block px-8 py-3 bg-bleach-red/80 text-bleach-white font-bebas text-xl rounded hover:bg-bleach-red transition-all duration-300 shadow-lg"
+              className="inline-block px-8 py-3 bg-black text-white font-bebas text-xl rounded hover:bg-black/80 transition-all duration-300 shadow-lg"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
@@ -83,7 +86,7 @@ const Index = () => {
       </section>
       
       {/* Coming Soon Section */}
-      <section className="py-20 px-4 bg-gradient-to-b from-bleach-black/80 to-bleach-black">
+      <section className="py-20 px-4 bg-white border-t-2 border-black/10">
         <div className="container mx-auto text-center">
           <motion.h2 
             className="section-title mb-8"
@@ -96,19 +99,23 @@ const Index = () => {
           </motion.h2>
           
           <motion.div
-            className="max-w-2xl mx-auto p-6 border border-bleach-gold/40 rounded-lg bg-gradient-to-br from-bleach-black to-bleach-black/90"
+            className="max-w-2xl mx-auto p-6 border-2 border-black rounded-lg bg-white relative"
             initial={{ opacity: 0, scale: 0.95 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            <h3 className="font-shojumaru text-xl text-bleach-gold mb-4">WHICH TYBW CHARACTER ARE YOU?</h3>
-            <p className="text-bleach-white/80 font-noto mb-6">
+            <div className="absolute -top-3 -right-3 w-16 h-16 bg-white border-2 border-black rounded-full flex items-center justify-center transform rotate-12">
+              <span className="font-bebas text-sm text-black">NEW!</span>
+            </div>
+            
+            <h3 className="font-shojumaru text-xl text-black mb-4">WHICH TYBW CHARACTER ARE YOU?</h3>
+            <p className="text-black/80 font-noto mb-6">
               Take our interactive quiz to discover which character from the Thousand-Year Blood War arc matches your personality.
             </p>
             
             <button 
-              className="px-6 py-2 bg-transparent border-2 border-bleach-gold text-bleach-gold font-bebas text-lg rounded hover:bg-bleach-gold/10 transition-all duration-300 opacity-50 cursor-not-allowed"
+              className="px-6 py-2 bg-transparent border-2 border-black text-black font-bebas text-lg rounded hover:bg-black/5 transition-all duration-300 opacity-50 cursor-not-allowed"
               disabled
             >
               QUIZ COMING SOON

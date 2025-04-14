@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -65,10 +66,10 @@ export default {
 				bleach: {
 					black: '#000000',
 					white: '#FFFFFF',
-					red: '#8B0000',
-					blue: '#00B7EB',
-					gold: '#FFD700',
-					purple: '#800080',
+					red: '#000000', // Changed to black
+					blue: '#000000', // Changed to black
+					gold: '#000000', // Changed to black
+					purple: '#000000', // Changed to black
 					gray: '#4B4B4B',
 				}
 			},
@@ -99,14 +100,14 @@ export default {
 						height: '0'
 					}
 				},
-				'pulse-reiatsu': {
+				'pulse-manga': {
 					'0%, 100%': { 
 						transform: 'scale(1)',
-						boxShadow: '0 0 0 rgba(139, 0, 0, 0.7)',
+						boxShadow: '0 0 0 rgba(0, 0, 0, 0.2)',
 					},
 					'50%': { 
 						transform: 'scale(1.05)',
-						boxShadow: '0 0 20px rgba(139, 0, 0, 0.7)',
+						boxShadow: '0 0 20px rgba(0, 0, 0, 0.4)',
 					},
 				},
 				'fade-in': {
@@ -114,21 +115,37 @@ export default {
 					'100%': { opacity: '1', transform: 'translateY(0)' },
 				},
 				'slash': {
-					'0%': { transform: 'translateX(-10px)', opacity: '0' },
+					'0%': { transform: 'translateX(-10px) rotate(-3deg)', opacity: '0' },
 					'50%': { opacity: '1' },
-					'100%': { transform: 'translateX(10px)', opacity: '0' },
+					'100%': { transform: 'translateX(10px) rotate(3deg)', opacity: '0' },
+				},
+				'ink-spread': {
+					'0%': { 
+						transform: 'scale(0)', 
+						opacity: '0.8',
+						borderRadius: '100%' 
+					},
+					'100%': { 
+						transform: 'scale(1)', 
+						opacity: '0',
+						borderRadius: '0%' 
+					},
 				},
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out',
-				'pulse-reiatsu': 'pulse-reiatsu 2s infinite',
+				'pulse-manga': 'pulse-manga 2s infinite',
 				'fade-in': 'fade-in 0.5s ease-out',
 				'slash': 'slash 0.3s ease-out',
+				'ink-spread': 'ink-spread 0.8s ease-out forwards',
 			},
 			backgroundImage: {
-				'hero-pattern': "linear-gradient(to bottom, rgba(26, 26, 26, 0.8), rgba(139, 0, 0, 0.6))",
-				'card-gradient': "linear-gradient(135deg, rgba(26, 26, 26, 0.9), rgba(139, 0, 0, 0.7))",
+				'hero-pattern': "linear-gradient(to bottom, rgba(255, 255, 255, 0.9), rgba(0, 0, 0, 0.1))",
+				'card-gradient': "linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(0, 0, 0, 0.05))",
+				'manga-lines': "repeating-linear-gradient(to right, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05) 1px, transparent 1px, transparent 20px)",
+				'manga-dots': "radial-gradient(rgba(0, 0, 0, 0.1) 1px, transparent 1px)",
+				'speed-lines': "repeating-linear-gradient(45deg, #000, #000 1px, transparent 1px, transparent 10px)",
 			},
 		}
 	},

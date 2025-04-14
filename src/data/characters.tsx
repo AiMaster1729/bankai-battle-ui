@@ -91,7 +91,7 @@ export const characters: CharacterType[] = [
     zanpakuto: "Hyorinmaru",
     quote: "Bankai, Daiguren Hyorinmaru.",
     icon: Snowflake,
-    imageSrc: "https://example.com/hitsugaya.jpg",
+    imageSrc: "https://i.pinimg.com/originals/25/2f/0c/252f0cea752d50254c626ad03274320f.jpg",
     reiatsuColor: "reiatsu-blue",
   },
   {

@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -63,12 +62,11 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// Bleach theme colors
 				bleach: {
-					black: '#1A1A1A',
+					black: '#000000',
+					white: '#FFFFFF',
 					red: '#8B0000',
 					blue: '#00B7EB',
-					white: '#F5F5F5',
 					gold: '#FFD700',
 					purple: '#800080',
 					gray: '#4B4B4B',

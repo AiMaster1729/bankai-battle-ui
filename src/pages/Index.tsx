@@ -1,5 +1,7 @@
-import React from "react";
+
+import React, { useState } from "react";
 import { motion } from "framer-motion";
+import { ChevronDown, ChevronUp } from "lucide-react";
 import NavBar from "../components/NavBar";
 import HeroSection from "../components/HeroSection";
 import CharacterCard from "../components/CharacterCard";
@@ -9,6 +11,14 @@ import { characters } from "../data/characters";
 import { bankais } from "../data/bankais";
 
 const Index = () => {
+  const [showAllBankais, setShowAllBankais] = useState(false);
+
+  const visibleBankais = showAllBankais ? bankais : bankais.slice(0, 4);
+
+  const toggleShowAllBankais = () => {
+    setShowAllBankais(!showAllBankais);
+  };
+
   return (
     <div className="min-h-screen bg-white">
       <NavBar />
@@ -55,9 +65,28 @@ const Index = () => {
           </motion.h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {bankais.map((bankai) => (
+            {visibleBankais.map((bankai) => (
               <BankaiShowcase key={bankai.id} bankai={bankai} />
             ))}
+          </div>
+          
+          <div className="mt-10 text-center">
+            <motion.button
+              onClick={toggleShowAllBankais}
+              className="flex items-center justify-center mx-auto px-6 py-3 bg-black text-white font-bebas text-xl rounded hover:bg-black/80 transition-all duration-300 border-2 border-black gap-2"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+            >
+              {showAllBankais ? (
+                <>
+                  SHOW LESS <ChevronUp className="w-5 h-5" />
+                </>
+              ) : (
+                <>
+                  SHOW MORE <ChevronDown className="w-5 h-5" />
+                </>
+              )}
+            </motion.button>
           </div>
           
           <div className="mt-16 text-center">

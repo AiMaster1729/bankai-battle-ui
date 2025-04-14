@@ -1,3 +1,4 @@
+
 export type BankaiType = {
   id: number;
   name: string;
@@ -67,7 +68,7 @@ export const bankais: BankaiType[] = [
     description: "Mayuri's Konjiki Ashisogi Jizo transforms into a giant, poisonous caterpillar that can paralyze and kill enemies with its venom.",
     shikai: "Ashisogi Jizo",
     bankai: "Konjiki Ashisogi Jizo",
-    imageSrc: "https://example.com/ashisogi_jizo.jpg",
+    imageSrc: "https://i.pinimg.com/originals/8d/89/62/8d89622c33e97a70aac0dec67f773eed.jpg",
     reiatsuColor: "reiatsu-green",
   },
   {
@@ -77,7 +78,7 @@ export const bankais: BankaiType[] = [
     description: "Soi Fon's Jakuho Raikoben is a massive missile launcher that can obliterate targets with a single, devastating blast.",
     shikai: "Suzumebachi",
     bankai: "Jakuho Raikoben",
-    imageSrc: "https://example.com/suzumebachi.jpg",
+    imageSrc: "https://i.pinimg.com/originals/97/77/d5/9777d5d3e94da76dcbca48fa0746aa67.jpg",
     reiatsuColor: "reiatsu-yellow",
   },
   {
@@ -87,7 +88,7 @@ export const bankais: BankaiType[] = [
     description: "Gin's Kamishini no Yari extends at lightning speed, piercing through enemies with lethal precision and leaving a trail of poison.",
     shikai: "Shinso",
     bankai: "Kamishini no Yari",
-    imageSrc: "https://example.com/shinso.jpg",
+    imageSrc: "https://i.pinimg.com/originals/54/64/f5/5464f5c2755c6a972e69cb85009b9943.jpg",
     reiatsuColor: "reiatsu-silver",
   },
   {
@@ -97,7 +98,7 @@ export const bankais: BankaiType[] = [
     description: "Tosen's Suzumushi Tsuishiki: Enma Korogi creates a massive dome that deprives enemies of their senses, leaving them helpless.",
     shikai: "Suzumushi",
     bankai: "Suzumushi Tsuishiki: Enma Korogi",
-    imageSrc: "https://example.com/suzumushi.jpg",
+    imageSrc: "https://i.pinimg.com/originals/61/54/ac/6154ac4deec53e14af80dd2da7d55c9e.jpg",
     reiatsuColor: "reiatsu-black",
   },
   {
@@ -107,7 +108,7 @@ export const bankais: BankaiType[] = [
     description: "Komamura's Kokujo Tengen Myo'o summons a giant armored warrior that mirrors his movements, delivering crushing blows.",
     shikai: "Tenken",
     bankai: "Kokujo Tengen Myo'o",
-    imageSrc: "https://example.com/tenken.jpg",
+    imageSrc: "https://i.pinimg.com/originals/3d/e3/7c/3de37c6c4d01cea9ecfdbc3aaa7a394b.jpg",
     reiatsuColor: "reiatsu-brown",
   },
   {
@@ -117,7 +118,7 @@ export const bankais: BankaiType[] = [
     description: "Shunsui's Katen Kyokotsu: Karamatsu Shinju creates a theatrical stage where reality bends, forcing enemies into deadly games.",
     shikai: "Katen Kyokotsu",
     bankai: "Katen Kyokotsu: Karamatsu Shinju",
-    imageSrc: "https://example.com/katen_kyokotsu.jpg",
+    imageSrc: "https://i.pinimg.com/originals/b5/55/72/b55572a8bffddb48f66e0ac9cf6b9e1a.jpg",
     reiatsuColor: "reiatsu-pink",
   },
   {
@@ -127,7 +128,7 @@ export const bankais: BankaiType[] = [
     description: "Shinji's Sakashima Yokoshima Happofusagari reverses the perception of friend and foe, causing chaos among enemies.",
     shikai: "Sakanade",
     bankai: "Sakashima Yokoshima Happofusagari",
-    imageSrc: "https://example.com/sakanade.jpg",
+    imageSrc: "https://i.pinimg.com/originals/d0/73/39/d0733929f1e0e82856c1dba2c47b284b.jpg",
     reiatsuColor: "reiatsu-orange",
   },
   {
@@ -137,7 +138,7 @@ export const bankais: BankaiType[] = [
     description: "Kensei's Tekken Tachikaze enhances his fists with explosive energy, delivering devastating punches.",
     shikai: "Tachikaze",
     bankai: "Tekken Tachikaze",
-    imageSrc: "https://example.com/tachikaze.jpg",
+    imageSrc: "https://i.pinimg.com/originals/84/8e/96/848e96d1e696fdb54b3c48b6c5e6f1e6.jpg",
     reiatsuColor: "reiatsu-green",
   },
   {
@@ -147,7 +148,7 @@ export const bankais: BankaiType[] = [
     description: "Rose's Kinshara Butodan uses music to create illusions and manipulate sound waves for attacks.",
     shikai: "Kinshara",
     bankai: "Kinshara Butodan",
-    imageSrc: "https://example.com/kinshara.jpg",
+    imageSrc: "https://i.pinimg.com/originals/20/ba/e9/20bae9c726f415aead0d7e5b84cffbeb.jpg",
     reiatsuColor: "reiatsu-yellow",
   },
   {
@@ -157,7 +158,7 @@ export const bankais: BankaiType[] = [
     description: "Urahara's Kannonbiraki Benihime Aratame can restructure anything it touches, healing or destroying with precision.",
     shikai: "Benihime",
     bankai: "Kannonbiraki Benihime Aratame",
-    imageSrc: "https://example.com/benihime.jpg",
+    imageSrc: "https://i.pinimg.com/originals/b3/47/43/b347430c3a4fca926a4a0e2c38ba6e65.jpg",
     reiatsuColor: "reiatsu-red",
   },
   {
@@ -167,7 +168,7 @@ export const bankais: BankaiType[] = [
     description: "Renji's Soo Zabimaru transforms into a massive skeletal snake, capable of crushing enemies with its powerful jaws.",
     shikai: "Zabimaru",
     bankai: "Soo Zabimaru",
-    imageSrc: "https://example.com/zabimaru.jpg",
+    imageSrc: "https://i.pinimg.com/originals/68/44/cb/6844cba5f0341fe9f8c395e60c03a1e7.jpg",
     reiatsuColor: "reiatsu-red",
   },
   {
@@ -177,7 +178,7 @@ export const bankais: BankaiType[] = [
     description: "Ikkaku's Ryumon Hozukimaru consists of three large blades connected by chains, spinning like a buzzsaw to slice through foes.",
     shikai: "Hozukimaru",
     bankai: "Ryumon Hozukimaru",
-    imageSrc: "https://example.com/hozukimaru.jpg",
+    imageSrc: "https://i.pinimg.com/originals/7d/21/a1/7d21a1de2f19a7e5feab2949cc1e2613.jpg",
     reiatsuColor: "reiatsu-orange",
   },
   {
@@ -187,7 +188,7 @@ export const bankais: BankaiType[] = [
     description: "Chojiro's Koko Gonryo Rikyu summons lightning storms, striking enemies with bolts of electricity.",
     shikai: "Gonryomaru",
     bankai: "Koko Gonryo Rikyu",
-    imageSrc: "https://example.com/gonryomaru.jpg",
+    imageSrc: "https://i.pinimg.com/originals/c9/bb/9e/c9bb9e50d22be11e47df84eb7f2f4efa.jpg",
     reiatsuColor: "reiatsu-yellow",
   },
 ];

@@ -50,7 +50,7 @@ export const characters: CharacterType[] = [
     zanpakuto: "Sode no Shirayuki",
     quote: "Dance, Sode no Shirayuki.",
     icon: Snowflake,
-    imageSrc: "https://i.pinimg.com/564x/b6/91/61/b69161edd84fcfb09cea273dcd8b669d.jpg",
+    imageSrc: "https://static1.cbrimages.com/wordpress/wp-content/uploads/2025/02/mixcollage-24-feb-2025-01-55-pm-4307.jpg",
     reiatsuColor: "reiatsu-blue",
   },
   {

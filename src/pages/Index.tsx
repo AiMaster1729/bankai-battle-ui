@@ -1,7 +1,7 @@
-
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { ChevronDown, ChevronUp } from "lucide-react";
+import { Link } from "react-router-dom";
 import NavBar from "../components/NavBar";
 import HeroSection from "../components/HeroSection";
 import CharacterCard from "../components/CharacterCard";
@@ -113,7 +113,7 @@ const Index = () => {
         </div>
       </section>
       
-      {/* Coming Soon Section */}
+      {/* Quiz Section (formerly Coming Soon) */}
       <section className="py-20 px-4 bg-white border-t-2 border-black/10">
         <div className="container mx-auto text-center">
           <motion.h2 
@@ -123,11 +123,11 @@ const Index = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            COMING SOON
+            BANKAI CHARACTER QUIZ
           </motion.h2>
           
           <motion.div
-            className="max-w-2xl mx-auto p-6 border-2 border-black rounded-lg bg-white relative"
+            className="max-w-2xl mx-auto p-6 border-2 border-black rounded-lg bg-white relative shadow-manga"
             initial={{ opacity: 0, scale: 0.95 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
@@ -142,12 +142,15 @@ const Index = () => {
               Take our interactive quiz to discover which character from the Thousand-Year Blood War arc matches your personality.
             </p>
             
-            <button 
-              className="px-6 py-2 bg-transparent border-2 border-black text-black font-bebas text-lg rounded hover:bg-black/5 transition-all duration-300 opacity-50 cursor-not-allowed"
-              disabled
-            >
-              QUIZ COMING SOON
-            </button>
+            <Link to="/quiz">
+              <motion.button 
+                className="px-6 py-2 bg-black border-2 border-black text-white font-bebas text-lg rounded hover:bg-black/80 transition-all duration-300"
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+              >
+                TAKE THE QUIZ
+              </motion.button>
+            </Link>
           </motion.div>
         </div>
       </section>

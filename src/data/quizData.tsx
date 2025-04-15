@@ -88,47 +88,19 @@ export const quizQuestions: QuizQuestion[] = [
   },
 ];
 
-export const quizResults: QuizResult[] = [
-  {
-    key: "a",
-    character: "Ichigo Kurosaki",
-    description: "Your Bankai, Tensa Zangetsu, enhances your speed and strength, reflecting your passionate and protective nature. Like Ichigo, you charge into challenges to safeguard those you love, guided by a strong personal moral code.",
-    bankai: "Tensa Zangetsu",
-  },
-  {
-    key: "b",
-    character: "Byakuya Kuchiki",
-    description: "Your Bankai, Senbonzakura Kageyoshi, creates a storm of blade petals, symbolizing your precision and discipline. Like Byakuya, you value honor and maintain a calm, controlled approach to life's battles.",
-    bankai: "Senbonzakura Kageyoshi",
-  },
-  {
-    key: "c",
-    character: "Kenpachi Zaraki",
-    description: "Your Bankai unleashes raw, berserker power, matching your fearless and battle-hungry spirit. Like Kenpachi, you thrive on instinct and the thrill of a challenge, brushing aside rules that don't suit you.",
-    bankai: "Unnamed",
-  },
-  {
-    key: "d",
-    character: "Toshiro Hitsugaya",
-    description: "Your Bankai, Daiguren Hyorinmaru, commands ice and snow, mirroring your strategic and mature demeanor. Like Toshiro, you excel through intelligence and strive to reach your full potential.",
-    bankai: "Daiguren Hyorinmaru",
-  },
-  {
-    key: "e",
-    character: "Rukia Kuchiki",
-    description: "Your Bankai, Hakka no Togame, freezes everything in its path, reflecting your compassionate yet determined heart. Like Rukia, you stand firm for duty and those you care about, keeping everyone united.",
-    bankai: "Hakka no Togame",
-  },
-  {
-    key: "f",
-    character: "Shunsui Kyoraku",
-    description: "Your Bankai, Katen Kyokotsu: Karamatsu Shinju, weaves a theatrical tale of despair, embodying your wise and laid-back approach. Like Shunsui, you use experience and flexibility to navigate life's complexities.",
-    bankai: "Katen Kyokotsu: Karamatsu Shinju",
-  },
-  {
-    key: "g",
-    character: "Sosuke Aizen",
-    description: "Your Shikai, Kyoka Suigetsu, creates perfect illusions, reflecting your cunning and manipulative nature. Like Aizen, you are always several steps ahead, using intelligence and strategy to achieve your goals. You see the world as a game to be mastered, bending reality to your will.",
-    bankai: "Kyoka Suigetsu (Shikai)",
-  },
-];
+export const instructions = `
+Bleach: Thousand-Year Blood War Bankai Character Quiz
+Discover which Bleach character you align with based on their Bankai (or Shikai, in Aizen's case) and personality!
+Instructions:
+
+For each question, choose the option (a, b, c, d, e, f, or g) that best describes you.
+At the end, count how many times you chose each letter and check the Results section to find your character.
+
+What to Do Next
+
+Tally your answers.
+The letter you picked most often determines your character.
+If you have a tie (e.g., 2 a's, 2 g's), you might share traits with both—pick the one that resonates more, or enjoy being a blend of two awesome characters!
+
+Enjoy the quiz and let me know who you get!
+`;

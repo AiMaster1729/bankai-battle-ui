@@ -111,7 +111,7 @@ export const characters: CharacterType[] = [
     zanpakuto: "Benihime",
     quote: "There’s no such thing as a perfect plan.",
     icon: Shield,
-    imageSrc: "https://example.com/urahara.jpg",
+    imageSrc: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f349855e-89c7-490a-b53b-03a3912049e2/d219quv-28665b75-8108-4b06-b82c-0b3cb8393682.jpg/v1/fill/w_900,h_594,q_75,strp/kisuke_urahara_by_kitty_23_d219quv-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTk0IiwicGF0aCI6IlwvZlwvZjM0OTg1NWUtODljNy00OTBhLWI1M2ItMDNhMzkxMjA0OWUyXC9kMjE5cXV2LTI4NjY1Yjc1LTgxMDgtNGIwNi1iODJjLTBiM2NiODM5MzY4Mi5qcGciLCJ3aWR0aCI6Ijw9OTAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.Sq4fl2t75g4egGaUO_SLu0XkFC6il3jmNPvqenGJVFc",
     reiatsuColor: "reiatsu-red",
   },
   {
@@ -141,7 +141,7 @@ export const characters: CharacterType[] = [
     zanpakuto: "Sakanade",
     quote: "Invert their senses.",
     icon: User,
-    imageSrc: "https://example.com/shinji.jpg",
+    imageSrc: "https://i.pinimg.com/736x/97/94/29/979429f547b8ac79c5d325d8b2011e40.jpg",
     reiatsuColor: "reiatsu-pink",
   },
   {

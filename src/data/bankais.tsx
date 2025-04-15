@@ -129,7 +129,7 @@ export const bankais: BankaiType[] = [
     description: "Shinji's Sakashima Yokoshima Happofusagari reverses the perception of friend and foe, causing chaos among enemies.",
     shikai: "Sakanade",
     bankai: "Sakashima Yokoshima Happofusagari",
-    imageSrc: "https://i.pinimg.com/originals/d0/73/39/d0733929f1e0e82856c1dba2c47b284b.jpg",
+    imageSrc: "https://i.pinimg.com/736x/2e/fc/39/2efc3987216d2a2695421b93f726abc6.jpg",
     reiatsuColor: "reiatsu-orange",
   },
   {

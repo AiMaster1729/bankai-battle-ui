@@ -69,7 +69,7 @@ export const bankais: BankaiType[] = [
     description: "Mayuri's Konjiki Ashisogi Jizo transforms into a giant, poisonous caterpillar that can paralyze and kill enemies with its venom.",
     shikai: "Ashisogi Jizo",
     bankai: "Konjiki Ashisogi Jizo",
-    imageSrc: "https://i.pinimg.com/originals/8d/89/62/8d89622c33e97a70aac0dec67f773eed.jpg",
+    imageSrc: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ed2fa36f-a4b9-4dfc-b51f-92f388df4ca9/dfl2brv-1cf8b7a8-060a-4ca9-a8bf-d9a4e5ee3065.png/v1/fill/w_1280,h_960,q_80,strp/mayuri_kurotsuchi_by_leoleonomi_dfl2brv-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTYwIiwicGF0aCI6IlwvZlwvZWQyZmEzNmYtYTRiOS00ZGZjLWI1MWYtOTJmMzg4ZGY0Y2E5XC9kZmwyYnJ2LTFjZjhiN2E4LTA2MGEtNGNhOS1hOGJmLWQ5YTRlNWVlMzA2NS5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.4TV3KnAJlj4J21Nru9BdCMhMPiaEvfK57dPhn5WpjRo",
     reiatsuColor: "reiatsu-green",
   },
   {
@@ -84,14 +84,14 @@ export const bankais: BankaiType[] = [
   },
   {
     id: 8,
-    name: "Shinso",
-    owner: "Gin Ichimaru",
-    description: "Gin's Kamishini no Yari extends at lightning speed, piercing through enemies with lethal precision and leaving a trail of poison.",
-    shikai: "Shinso",
-    bankai: "Kamishini no Yari",
-    imageSrc: "https://i.pinimg.com/originals/54/64/f5/5464f5c2755c6a972e69cb85009b9943.jpg",
-    reiatsuColor: "reiatsu-silver",
-  },
+    name: "Kyoka Suigetsu",
+    owner: "Sosuke Aizen",
+    description: "Aizen's Kyoka Suigetsu creates perfect illusions, manipulating the senses of his opponents.",
+    shikai: "Kyoka Suigetsu",
+    bankai: "Unknown",
+    imageSrc: "https://i.pinimg.com/564x/63/32/47/6332477875ef2c84777440c302b39b58.jpg",
+    reiatsuColor: "reiatsu-purple"
+},
   {
     id: 9,
     name: "Ryujin Jakka",
@@ -142,16 +142,16 @@ export const bankais: BankaiType[] = [
     imageSrc: "https://i.pinimg.com/originals/84/8e/96/848e96d1e696fdb54b3c48b6c5e6f1e6.jpg",
     reiatsuColor: "reiatsu-green",
   },
-  {
+{
     id: 14,
-    name: "Kinshara",
-    owner: "Rose Otoribashi",
-    description: "Rose's Kinshara Butodan uses music to create illusions and manipulate sound waves for attacks.",
-    shikai: "Kinshara",
-    bankai: "Kinshara Butodan",
-    imageSrc: "https://i.pinimg.com/originals/20/ba/e9/20bae9c726f415aead0d7e5b84cffbeb.jpg",
-    reiatsuColor: "reiatsu-yellow",
-  },
+    name: "Minazuki",
+    owner: "Retsu Unohana",
+    description: "Unohana's Minazuki grants her the power to manipulate blood, enhancing her already exceptional swordsmanship.",
+    shikai: "Minazuki",
+    bankai: "Minazuki",
+    imageSrc: "https://dailyanimeart.com/wp-content/uploads/2013/02/unohanas-minazuki-bankai.jpg",
+    reiatsuColor: "reiatsu-darkred"
+},
   {
     id: 15,
     name: "Benihime",

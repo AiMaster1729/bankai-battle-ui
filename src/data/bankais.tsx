@@ -48,7 +48,7 @@ export const bankais: BankaiType[] = [
     description: "Shunsui's Katen Kyokotsu: Karamatsu Shinju creates a theatrical stage where reality bends, forcing enemies into deadly games.",
     shikai: "Katen Kyokotsu",
     bankai: "Katen Kyokotsu: Karamatsu Shinju",
-    imageSrc: "https://preview.redd.it/anime-original-manga-or-the-colored-manga-which-one-do-you-v0-k2d8244kfc4e1.jpg?width=640&crop=smart&auto=webp&s=67d599910b25ee7487d9c070aea33dcae9a62848",
+    imageSrc: "https://static1.srcdn.com/wordpress/wp-content/uploads/2024/09/bleach-shunsui-bankai-1.jpg",
     reiatsuColor: "reiatsu-pink",
   },
   

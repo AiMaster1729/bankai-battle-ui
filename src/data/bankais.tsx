@@ -18,7 +18,7 @@ export const bankais: BankaiType[] = [
     description: "Ichigo's Tensa Zangetsu in TYBW fuses Hollow and Quincy power, unleashing devastating black Getsuga Tensho that can cleave through dimensions.",
     shikai: "Zangetsu",
     bankai: "Tensa Zangetsu",
-    imageSrc: "https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Ffavorite-ichigo-panel-v0-qkwv17em6psd1.jpeg%3Fwidth%3D1080%26crop%3Dsmart%26auto%3Dwebp%26s%3D3f631578591beeac23ee8f9ecc94f8692805653d",
+    imageSrc: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo9oSI57ZQo0vq6_RdHFoDh0Qf-EG1LaRs3ADzxTfNXUSXVZ8_2_35aoQcK2rvSbEpzHc&usqp=CAU",
     reiatsuColor: "reiatsu-red",
   },
   {

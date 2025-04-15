@@ -134,14 +134,14 @@ export const bankais: BankaiType[] = [
   },
   {
     id: 13,
-    name: "Tachikaze",
-    owner: "Kensei Muguruma",
-    description: "Kensei's Tekken Tachikaze enhances his fists with explosive energy, delivering devastating punches.",
-    shikai: "Tachikaze",
-    bankai: "Tekken Tachikaze",
-    imageSrc: "https://i.pinimg.com/originals/84/8e/96/848e96d1e696fdb54b3c48b6c5e6f1e6.jpg",
-    reiatsuColor: "reiatsu-green",
-  },
+    name: "Wabisuke",
+    owner: "Izuru Kira",
+    description: "Izuru's Wabisuke doubles the weight of anything it strikes, embodying his sense of duty and the burdens he bears.",
+    shikai: "Wabisuke",
+    bankai: "Unknown",
+    imageSrc: "https://res.cloudinary.com/dshy9mkpj/image/upload/v1744742920/what-do-you-think-about-these-panels-v0-a7fzieuwpjbb1_j1vo4m.jpg",
+    reiatsuColor: "reiatsu-blue"
+},
 {
     id: 14,
     name: "Minazuki",

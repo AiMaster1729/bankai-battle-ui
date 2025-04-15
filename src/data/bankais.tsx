@@ -89,7 +89,7 @@ export const bankais: BankaiType[] = [
     description: "Aizen's Kyoka Suigetsu creates perfect illusions, manipulating the senses of his opponents.",
     shikai: "Kyoka Suigetsu",
     bankai: "Unknown",
-    imageSrc: "https://i.pinimg.com/564x/63/32/47/6332477875ef2c84777440c302b39b58.jpg",
+    imageSrc: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTk2pAjMQqJdW41FMM1Jp08t2UVChpLdk0lmvzH-Tp0w16ltkRgfCwn0VcCpb67m1Gz3nA&usqp=CAU",
     reiatsuColor: "reiatsu-purple"
 },
   {

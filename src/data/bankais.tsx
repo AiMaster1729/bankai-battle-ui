@@ -94,13 +94,13 @@ export const bankais: BankaiType[] = [
   },
   {
     id: 9,
-    name: "Suzumushi",
-    owner: "Kaname Tosen",
-    description: "Tosen's Suzumushi Tsuishiki: Enma Korogi creates a massive dome that deprives enemies of their senses, leaving them helpless.",
-    shikai: "Suzumushi",
-    bankai: "Suzumushi Tsuishiki: Enma Korogi",
-    imageSrc: "https://i.pinimg.com/originals/61/54/ac/6154ac4deec53e14af80dd2da7d55c9e.jpg",
-    reiatsuColor: "reiatsu-black",
+    name: "Ryujin Jakka",
+    owner: "Genryusai Shigekuni Yamamoto",
+    description: "Yamamoto's Zanka no Tachi unleashes the full power of fire, with techniques that can erase enemies from existence.",
+    shikai: "Ryujin Jakka",
+    bankai: "Zanka no Tachi",
+    imageSrc: "https://dailyanimeart.com/wp-content/uploads/2012/09/yamamotos-bankai-zanka-no-tachi.jpg",
+    reiatsuColor: "reiatsu-red",
   },
   {
     id: 10,
@@ -159,7 +159,7 @@ export const bankais: BankaiType[] = [
     description: "Urahara's Kannonbiraki Benihime Aratame can restructure anything it touches, healing or destroying with precision.",
     shikai: "Benihime",
     bankai: "Kannonbiraki Benihime Aratame",
-    imageSrc: "https://i.pinimg.com/originals/b3/47/43/b347430c3a4fca926a4a0e2c38ba6e65.jpg",
+    imageSrc: "https://static1.srcdn.com/wordpress/wp-content/uploads/2020/06/Kisuke-Urahara-Kannon-Biraki-Benihime-Aratame.jpg",
     reiatsuColor: "reiatsu-red",
   },
   {
@@ -169,7 +169,7 @@ export const bankais: BankaiType[] = [
     description: "Renji's Soo Zabimaru transforms into a massive skeletal snake, capable of crushing enemies with its powerful jaws.",
     shikai: "Zabimaru",
     bankai: "Soo Zabimaru",
-    imageSrc: "https://i.pinimg.com/originals/68/44/cb/6844cba5f0341fe9f8c395e60c03a1e7.jpg",
+    imageSrc: "https://staticg.sportskeeda.com/editor/2022/10/9908a-16657201882031-1920.jpg",
     reiatsuColor: "reiatsu-red",
   },
   {
@@ -179,7 +179,7 @@ export const bankais: BankaiType[] = [
     description: "Ikkaku's Ryumon Hozukimaru consists of three large blades connected by chains, spinning like a buzzsaw to slice through foes.",
     shikai: "Hozukimaru",
     bankai: "Ryumon Hozukimaru",
-    imageSrc: "https://i.pinimg.com/originals/7d/21/a1/7d21a1de2f19a7e5feab2949cc1e2613.jpg",
+    imageSrc: "https://i.pinimg.com/736x/10/f4/70/10f470083f39fd6769c910ebb6d99420.jpg",
     reiatsuColor: "reiatsu-orange",
   },
   {

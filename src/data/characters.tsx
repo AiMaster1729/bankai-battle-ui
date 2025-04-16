@@ -59,7 +59,7 @@ export const characters: CharacterType[] = [
     zanpakuto: "Senbonzakura",
     quote: "Scatter, Senbonzakura Kageyoshi.",
     icon: Droplet,
-    imageSrc: "https://i.pinimg.com/originals/d7/04/dc/d704dc1c64318d4107c064a200e93c0c.png",
+    imageSrc: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f2aacc7e-de0d-4f5d-a7c2-1c47b586afb1/dey2pa5-d6c8aa7d-9971-43ed-9415-c739ea904788.jpg/v1/fill/w_1192,h_670,q_70,strp/byakuya_kuchiki_by_housecakes_dey2pa5-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvZjJhYWNjN2UtZGUwZC00ZjVkLWE3YzItMWM0N2I1ODZhZmIxXC9kZXkycGE1LWQ2YzhhYTdkLTk5NzEtNDNlZC05NDE1LWM3MzllYTkwNDc4OC5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.mZ2JsH3DDfI6JE8IScsjmOscXll_1GD6CqAvPZPwJvU",
     reiatsuColor: "reiatsu-purple",
   },
   {

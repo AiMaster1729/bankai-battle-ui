@@ -119,7 +119,7 @@ export const characters: CharacterType[] = [
     zanpakuto: "Ashisogi Jizo",
     quote: "Perfection is me.",
     icon: Skull,
-    imageSrc: "https://i.pinimg.com/originals/cb/bc/07/cbbc07dfa79a6d6409acb1227505318a.jpg",
+    imageSrc: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ed2fa36f-a4b9-4dfc-b51f-92f388df4ca9/dfl2brv-1cf8b7a8-060a-4ca9-a8bf-d9a4e5ee3065.png/v1/fill/w_1280,h_960,q_80,strp/mayuri_kurotsuchi_by_leoleonomi_dfl2brv-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTYwIiwicGF0aCI6IlwvZlwvZWQyZmEzNmYtYTRiOS00ZGZjLWI1MWYtOTJmMzg4ZGY0Y2E5XC9kZmwyYnJ2LTFjZjhiN2E4LTA2MGEtNGNhOS1hOGJmLWQ5YTRlNWVlMzA2NS5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.4TV3KnAJlj4J21Nru9BdCMhMPiaEvfK57dPhn5WpjRo",
     reiatsuColor: "reiatsu-green",
   },
   {

@@ -99,7 +99,7 @@ export const characters: CharacterType[] = [
     zanpakuto: "Kyoka Suigetsu",
     quote: "Admiration is the furthest thing from understanding.",
     icon: Skull,
-    imageSrc: "https://example.com/aizen.jpg",
+    imageSrc: "https://i.pinimg.com/736x/13/d8/8f/13d88f4b08a8040820ecd67fde4094bb.jpg",
     reiatsuColor: "reiatsu-purple",
   },
   {
@@ -119,7 +119,7 @@ export const characters: CharacterType[] = [
     zanpakuto: "Ashisogi Jizo",
     quote: "Perfection is me.",
     icon: Skull,
-    imageSrc: "https://example.com/mayuri.jpg",
+    imageSrc: "https://i.pinimg.com/originals/cb/bc/07/cbbc07dfa79a6d6409acb1227505318a.jpg",
     reiatsuColor: "reiatsu-green",
   },
   {
@@ -129,7 +129,7 @@ export const characters: CharacterType[] = [
     zanpakuto: "Ryujin Jakka",
     quote: "All things in the universe turn to ashes.",
     icon: Flame,
-    imageSrc: "https://example.com/yamamoto.jpg",
+    imageSrc: "https://e0.pxfuel.com/wallpapers/361/482/desktop-wallpaper-genryuusai-shigekuni-yamamoto-from-bleach-genryusai-shigekuni-yamamoto.jpg",
     reiatsuColor: "reiatsu-orange",
   },
   {
@@ -149,7 +149,7 @@ export const characters: CharacterType[] = [
     zanpakuto: "Zabimaru",
     quote: "Roar, Zabimaru!",
     icon: Sword,
-    imageSrc: "https://example.com/renji.jpg",
+    imageSrc: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b4aed535-ee3d-450f-8bf6-577a4114dd55/d2qqvs2-b77ba657-842e-402c-b0f4-9c29dd444b8b.jpg/v1/fill/w_1025,h_780,q_70,strp/bleach___abarai_renji___dsc_by_washu_m_d2qqvs2-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODgxIiwicGF0aCI6IlwvZlwvYjRhZWQ1MzUtZWUzZC00NTBmLThiZjYtNTc3YTQxMTRkZDU1XC9kMnFxdnMyLWI3N2JhNjU3LTg0MmUtNDAyYy1iMGY0LTljMjlkZDQ0NGI4Yi5qcGciLCJ3aWR0aCI6Ijw9MTE1OCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.6RLkn6QIv0Ffic6vZyli1XyCe-FovY7uRTkT_NsBblE",
     reiatsuColor: "reiatsu-red",
   },
   {
@@ -159,7 +159,7 @@ export const characters: CharacterType[] = [
     zanpakuto: "Shun Shun Rikka",
     quote: "I reject!",
     icon: Heart,
-    imageSrc: "https://example.com/orihime.jpg",
+    imageSrc: "https://i.pinimg.com/564x/10/17/b1/1017b1c100ee2e8e2d77efae9d141341.jpg",
     reiatsuColor: "reiatsu-orange",
   },
   {
@@ -169,7 +169,7 @@ export const characters: CharacterType[] = [
     zanpakuto: "Brazo Derecha de Gigante",
     quote: "I’ll protect you with my life.",
     icon: Shield,
-    imageSrc: "https://example.com/chad.jpg",
+    imageSrc: "https://comicvine.gamespot.com/a/uploads/scale_medium/5/57845/1591637-chad.jpg",
     reiatsuColor: "reiatsu-brown",
   },
   {
@@ -179,7 +179,7 @@ export const characters: CharacterType[] = [
     zanpakuto: "Shunko",
     quote: "Speed is my weapon.",
     icon: User,
-    imageSrc: "https://example.com/yoruichi.jpg",
+    imageSrc: "https://i.pinimg.com/474x/f7/23/a6/f723a6e19bf2ca5a26b956bbe2fc3489.jpg",
     reiatsuColor: "reiatsu-purple",
   },
 ];

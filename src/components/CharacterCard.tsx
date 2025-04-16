@@ -1,6 +1,7 @@
 
 import React, { useState } from "react";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 import { CharacterType } from "../data/characters";
 
 interface CharacterCardProps {
@@ -58,21 +59,23 @@ const CharacterCard: React.FC<CharacterCardProps> = ({ character }) => {
         <p className="text-sm italic text-black/70 mt-3 font-noto">"{character.quote}"</p>
         
         <div className="mt-4 flex justify-end">
-          <motion.button
-            className="text-xs font-bebas py-1 px-3 bg-black text-white rounded-sm hover:bg-black/80 transition-colors duration-300 relative overflow-hidden"
-            whileTap={{ scale: 0.95 }}
-          >
-            <span className="relative z-10">VIEW PROFILE</span>
-            {isHovered && (
-              <motion.span
-                className="absolute inset-0 bg-white"
-                initial={{ x: '-100%' }}
-                animate={{ x: '100%' }}
-                transition={{ duration: 0.3, ease: 'easeInOut' }}
-                style={{ opacity: 0.2 }}
-              />
-            )}
-          </motion.button>
+          <Link to={`/character/${character.id}`}>
+            <motion.button
+              className="text-xs font-bebas py-1 px-3 bg-black text-white rounded-sm hover:bg-black/80 transition-colors duration-300 relative overflow-hidden"
+              whileTap={{ scale: 0.95 }}
+            >
+              <span className="relative z-10">VIEW PROFILE</span>
+              {isHovered && (
+                <motion.span
+                  className="absolute inset-0 bg-white"
+                  initial={{ x: '-100%' }}
+                  animate={{ x: '100%' }}
+                  transition={{ duration: 0.3, ease: 'easeInOut' }}
+                  style={{ opacity: 0.2 }}
+                />
+              )}
+            </motion.button>
+          </Link>
         </div>
       </div>
     </motion.div>

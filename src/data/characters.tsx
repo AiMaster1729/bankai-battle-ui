@@ -22,7 +22,6 @@ export type CharacterType = {
 };
 
 export const characters: CharacterType[] = [
-  // Existing characters
   {
     id: 1,
     name: "Ichigo Kurosaki",
@@ -83,7 +82,6 @@ export const characters: CharacterType[] = [
     imageSrc: "https://i.pinimg.com/736x/7b/77/a8/7b77a8567d1b1df8546036c498c21050.jpg",
     reiatsuColor: "reiatsu-gold",
   },
-  // New characters
   {
     id: 7,
     name: "Tōshirō Hitsugaya",

@@ -99,7 +99,7 @@ export const characters: CharacterType[] = [
     zanpakuto: "Kyoka Suigetsu",
     quote: "Admiration is the furthest thing from understanding.",
     icon: Skull,
-    imageSrc: "https://i.pinimg.com/736x/13/d8/8f/13d88f4b08a8040820ecd67fde4094bb.jpg",
+    imageSrc: "https://i.ytimg.com/vi/GDEaBvnzSfs/maxresdefault.jpg",
     reiatsuColor: "reiatsu-purple",
   },
   {

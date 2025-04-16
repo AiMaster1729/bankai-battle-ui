@@ -79,7 +79,7 @@ export const characters: CharacterType[] = [
     zanpakuto: "Heilig Bogen",
     quote: "I am the last Quincy.",
     icon: Shield,
-    imageSrc: "https://i.pinimg.com/564x/1c/c9/42/1cc9425824c5720acb795e041a8e7d4d.jpg",
+    imageSrc: "http://static1.cbrimages.com/wordpress/wp-content/uploads/2020/07/5283367-1215691212-tumbl-Cropped.jpg",
     reiatsuColor: "reiatsu-gold",
   },
   {

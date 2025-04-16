@@ -1,7 +1,7 @@
 
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import { BankaiType } from "../data/bankais";
+import { BankaiType } from "../types";
 
 interface BankaiShowcaseProps {
   bankai: BankaiType;

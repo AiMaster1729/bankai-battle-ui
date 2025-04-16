@@ -1,5 +1,5 @@
 
-import { BankaiType } from "./bankais";
+import { BankaiType } from "../types";
 
 export const bankais: BankaiType[] = [
   {

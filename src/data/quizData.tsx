@@ -1,6 +1,5 @@
-
 import { CharacterType } from "./characters";
-import { BankaiType } from "./bankais";
+import { BankaiType } from "../types";
 
 export type QuizQuestion = {
   id: number;
